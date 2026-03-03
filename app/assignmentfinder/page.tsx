@@ -59,6 +59,9 @@ export default function AssignmentFinder() {
           <p className="text-slate-400 text-lg max-w-lg mx-auto">
             Instantly trace and GO TO official IGNOU assignment PDFs.
           </p>
+          <p className="text-slate-400 text-lg max-w-lg mx-auto">
+            Make sure to double check the assignment dates and code before using them!
+          </p>
           <div className="mt-4 inline-block px-4 py-1 rounded-full bg-slate-800/50 border border-slate-700 text-xs text-slate-500 uppercase tracking-widest">
             Unofficial Directory
           </div>
