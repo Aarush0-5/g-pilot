@@ -70,7 +70,7 @@ export default function AssignmentFinder() {
         {/* Search Bar Area */}
         <div className="relative group">
           <div className="absolute -inset-1 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-2xl blur opacity-25 group-focus-within:opacity-50 transition duration-1000"></div>
-          <div className="relative flex gap-2 bg-slate-900 p-2 rounded-2xl border border-slate-700 shadow-2xl">
+          <div className="relative flex-col lg:flex-row flex gap-2 bg-slate-900 p-2 rounded-2xl border border-slate-700 shadow-2xl">
             <input 
               className='flex-1 bg-transparent p-4 pl-6 text-white outline-none placeholder:text-slate-600' 
               type="text" 

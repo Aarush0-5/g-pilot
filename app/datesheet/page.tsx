@@ -105,7 +105,7 @@ useEffect(() => {
        
         <section className="bg-slate-800 p-6 rounded-2xl shadow-2xl border border-slate-700 mb-8">
           <label className="block text-sm font-medium text-slate-400 mb-2">Add Course Codes</label>
-          <div className="flex gap-2 mb-6">
+          <div className="flex flex-col lg:flex-row gap-2 mb-6">
             <input 
               className='flex-1 p-3 rounded-xl bg-slate-900 border border-slate-700 focus:ring-2 focus:ring-green-500 outline-none transition-all' 
               placeholder="e.g. MCS011, BCS040, BEVAE181"

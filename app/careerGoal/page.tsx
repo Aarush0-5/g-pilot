@@ -60,6 +60,10 @@ const [courseInput, setCourseInput] = useState("");
         <p className="text-gray-400 mb-8 italic border-l-4 border-yellow-500 pl-4">
           NOTE: This tool uses AI to simulate career trajectories. It is for inspiration and not professional legal/academic advice.
         </p>
+        <p className="text-gray-400 mb-8 italic border-l-4 border-yellow-500 pl-4">
+          Use this to get an idea and then do your own research upon what interests you!
+         </p> 
+
 
         <div className="flex gap-2 mb-6">
           <input 

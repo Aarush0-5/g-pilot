@@ -72,7 +72,7 @@ export async function analyzeSituation(courses: string[]) {
         Your task:
         1. Identify the core industry these courses belong to (e.g., IT, Social Work, Management).
         2. Suggest a few specific job roles the student can apply for after completing these.
-        3. Include future study oppertunities including the courses, their general eligibility criteria and locations where it can be studied based on the current course of the student, Keep the first few options directly related to their courses and the last few extra ones which they can still pursue regardless of their course for example UPSC.
+        3. Include future study oppertunities including the courses, their general eligibility criteria listed by universities and locations where it can be studied based on the current course of the student, Keep the first few options directly related to their courses and the last few extra ones which they can still pursue regardless of their course for example UPSC.
         3. List 2 "Gap Skills" (skills not taught in these courses but required by the industry).
         STUDENT DATA:
         ${JSON.stringify(courses)}
