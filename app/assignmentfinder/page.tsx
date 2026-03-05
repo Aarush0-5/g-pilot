@@ -62,6 +62,9 @@ export default function AssignmentFinder() {
           <p className="text-slate-400 text-lg max-w-lg mx-auto">
             Make sure to double check the assignment dates and code before using them!
           </p>
+           <p className="text-slate-400 text-lg max-w-lg mx-auto">
+            Make sure to search assinments with a hyphen. Eg BECC-131!
+          </p>
           <div className="mt-4 inline-block px-4 py-1 rounded-full bg-slate-800/50 border border-slate-700 text-xs text-slate-500 uppercase tracking-widest">
             Unofficial Directory
           </div>
