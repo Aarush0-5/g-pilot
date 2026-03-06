@@ -77,7 +77,7 @@ export default function Home() {
 </div>
 
   <div className="mt-8 pt-6 border-t border-slate-800 text-center">
-   <a href="mailto:sinner01@proton.me">
+   <a href="mailto:spysinner01@gmail.com">
   <button className="text-white mt-4 mb-5 rounded-xl p-3 border hover:border-red hover:border-solid hover:text-red-500 " type="button">Mail the Developer</button>
 </a>
     <p className="text-slate-500 text-[10px] uppercase tracking-widest">
