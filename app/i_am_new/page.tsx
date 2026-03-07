@@ -90,7 +90,7 @@ export default function IamNew() {
             <input type="checkbox" className="w-6 h-6 mt-1" />
             <div>
                 <h3 className="text-xl font-bold">Look out for the Exam Form window 🎟️</h3>
-                <p className="text-gray-200">You have to pay for exams separately Not sure if you're ready? Try my <strong>"Am I Eligible?"</strong> tool below.</p>
+                <p className="text-gray-200">You have to pay for exams separately </p>
             </div>
             </section>
 
