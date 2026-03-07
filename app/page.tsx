@@ -16,11 +16,12 @@ export default function Home() {
         <section className="mb-16">
           <h2 className="text-center text-2xl font-bold mb-8 text-slate-100">Quick Utility Tools</h2>
           <h3 className="text-center text-xl italic font-bold mb-8 text-slate-100">last updated : 3rd March 2026</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { label: "DateSheet Sorter", href: "/datesheet", desc: "Order your exams chronologically" },
               { label: "Assignment Finder", href: "/assignmentfinder", desc: "Trace official PDF links" },
-              { label: "Career Guidance", href: "/careerGoal", desc: "Post-graduation pathways" }
+              { label: "Career Guidance", href: "/careerGoal", desc: "Post-graduation pathways" },
+              { label: "I am NEW !", href: "/i_am_new", desc: "Know what to do next" }
             ].map((item) => (
               <a 
                 key={item.label}
@@ -77,9 +78,30 @@ export default function Home() {
 </div>
 
   <div className="mt-8 pt-6 border-t border-slate-800 text-center">
-   <a href="mailto:spysinner01@gmail.com">
-  <button className="text-white mt-4 mb-5 rounded-xl p-3 border hover:border-red hover:border-solid hover:text-red-500 " type="button">Mail the Developer</button>
-</a>
+   <form 
+  className='flex flex-col max-w-md mx-auto' 
+  action="https://formspree.io/f/xojkvjzl" 
+  method='POST'
+>
+  <label htmlFor="user-message" className="text-gray-300 mb-2 text-sm">
+    Your Message:
+  </label>
+  
+  <textarea 
+    id="user-message"
+    name="message" 
+    placeholder="Type your query..."
+    className='bg-slate-800 text-white p-3 rounded-lg border border-slate-600 focus:border-blue-500 outline-none transition'
+    required
+  />
+
+  <button 
+    type="submit" 
+    className="text-white mt-4 mb-5 rounded-xl p-3 border border-white hover:border-red-500 hover:text-red-500 transition-all font-bold"
+  >
+    Mail the Developer 📩
+  </button>
+</form>
     <p className="text-slate-500 text-[10px] uppercase tracking-widest">
       Navigation Tool Only • Built for students • © 2026
     </p>
