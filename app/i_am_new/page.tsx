@@ -35,7 +35,7 @@ export default function IamNew() {
             <input type="checkbox" className="w-6 h-6 mt-1" />
             <div>
                 <h3 className="text-xl font-bold text-blue-700">NEW: Create and Link your ABC ID (Mandatory!) ✨</h3>
-                <p className="text-blue-900 text-sm">As of 2026, you MUST create an Academic Bank of Credits ID via DigiLocker. Without this, your marks won't be updated. Do this before the next step!</p>
+                <p className="text-blue-900 text-sm">As of 2026, you MUST create an Academic Bank of Credits ID via DigiLocker and link it to your profile. Without this, your marks won't be updated. Do this before the next step!</p>
             </div>
             </section>
 
