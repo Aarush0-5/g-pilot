@@ -27,11 +27,11 @@ export const dateSheet = async (courses: string[]) => {
   try {
     const filteredResults = allAssignments.filter((item: any) => {
       
-      const morning = item["Morning Course"] || "";
+      const morning = item["morning"] || "";
       
-      const evening = Array.isArray(item["Evening Course"]) 
-                      ? item["Evening Course"].join(" ") 
-                      : (item["Evening Course"] || "");
+      const evening = Array.isArray(item["evening"]) 
+                      ? item["evening"].join(" ") 
+                      : (item["evening"] || "");
 
       const allSessionCourses = (morning + " " + evening).toUpperCase();
 
