@@ -175,7 +175,7 @@ useEffect(() => {
           )}
         </section>
         <div>
-          <a href="https://www.ignou.ac.in/viewFile/SED/notification/Tentative-Date-Sheet-for-June-2026-TEE.pdf" target='_blank' className='mt-10 flex justify-center hover:text-red-300 text-white font-bold text-2xl'>Go to OFFICAL source of this information</a>
+          <a href="https://www.ignou.ac.in/viewFile/SED/notification/Date-sheet-june-2026.pdf" target='_blank' className='mt-10 flex justify-center hover:text-red-300 text-white font-bold text-2xl'>Go to OFFICAL source of this information</a>
         </div>
       </div>
       {finalSchedule.length > 0 && (
