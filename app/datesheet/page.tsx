@@ -57,10 +57,10 @@ useEffect(() => {
       const flattenedRows: ExamRow[] = [];
 
       response.data.forEach((item: any) => {
-        const morningBlock = item["Morning Course"].toUpperCase();
-        const eveningBlock = Array.isArray(item["Evening Course"]) 
-          ? item["Evening Course"].join(" ").toUpperCase() 
-          : item["Evening Course"].toUpperCase();
+        const morningBlock = item["morning"].toUpperCase();
+        const eveningBlock = Array.isArray(item["evening"]) 
+          ? item["evening"].join(" ").toUpperCase() 
+          : item["evening"].toUpperCase();
 
        
         selectedSubjects.forEach(subject => {
