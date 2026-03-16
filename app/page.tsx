@@ -15,7 +15,7 @@ export default function Home() {
       <main className="max-w-5xl mx-auto p-6 md:p-12">
         <section className="mb-16">
           <h2 className="text-center text-2xl font-bold mb-8 text-slate-100">Quick Utility Tools</h2>
-          <h3 className="text-center text-xl italic font-bold mb-8 text-slate-100">last updated : 3rd March 2026</h3>
+          <h3 className="text-center text-xl italic font-bold mb-8 text-slate-100">last updated : 16th March 2026</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { label: "DateSheet Sorter", href: "/datesheet", desc: "Order your exams chronologically" },
