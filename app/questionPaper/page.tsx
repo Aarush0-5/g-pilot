@@ -28,7 +28,6 @@ export default function question_paper_finder () {
     
     if (response.success) {
       setResults(response.data);
-      console.log("Fresh Data from Backend:", response.data);
     } else {
       throw new Error('No papers found.');
     }
