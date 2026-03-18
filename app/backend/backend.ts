@@ -60,6 +60,7 @@ export const dateSheet = async (courses: string[]) => {
     return { success: false, error: "Could not filter date sheet." };
   }
 };
+
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
 export async function analyzeSituation(courses: string[]) {
   try {
@@ -103,3 +104,44 @@ export async function analyzeSituation(courses: string[]) {
   }
 }
 
+export const questionPaperFinder = async (userCourses: string[]) => {
+  const filePath = path.join(process.cwd(), "app", "backend", "questionPaper.json");
+  const baseLinks = [`https://webservices.ignou.ac.in/Pre-Question/Question%20Paper%20June%202024/CBCS/`,`https://webservices.ignou.ac.in/Pre-Question/Question%20Paper%20December%202023/CBCS/`,  `https://webservices.ignou.ac.in/Pre-Question/Question%20Paper%20June%202023/CBCS/`, `https://webservices.ignou.ac.in/Pre-Question/Question%20Paper%20December%202022/CBCS/`,`https://webservices.ignou.ac.in/Pre-Question/Question%20Paper%20June%202022/CBCS/`, `https://webservices.ignou.ac.in/Pre-Question/Question%20Paper%20December%202021/CBCS/` , `https://webservices.ignou.ac.in/Pre-Question/Question%20Paper%20June%202021/CBCS/`,  ]
+
+  try {
+    const fileContent = await fs.readFile(filePath, "utf-8");
+    const data = JSON.parse(fileContent);
+
+    const finalResults = userCourses.flatMap((course) => {
+      const normalizedCourse = course.toUpperCase();
+      const otherEntry = data.others?.find((item: any) => 
+       item.courseCode.toUpperCase() === normalizedCourse
+      );
+      const suffix = otherEntry ? otherEntry.link : null;
+      const generatedUrls = suffix 
+        ? baseLinks.map(base => `${base}${suffix}`) 
+        : [];
+
+
+      const sessionLinks = Object.entries(data)
+        .filter(([session]) => session !== "others")
+        .flatMap(([session, papers]: [string, any]) => {
+          return papers
+            .filter((p: any) => p.courseCode.toUpperCase() === normalizedCourse)
+            .map((p: any) => (
+              p.link
+            ));
+        });
+
+      const final_links = [...sessionLinks, ...generatedUrls]
+      return {
+        course: normalizedCourse,
+        links: final_links
+      };
+    });
+    return { success: true, data: finalResults };
+  } catch (error) {
+    console.error("Search failed:", error);
+    return { success: false, data: [] };
+  }
+};

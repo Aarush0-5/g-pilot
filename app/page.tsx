@@ -16,12 +16,13 @@ export default function Home() {
         <section className="mb-16">
           <h2 className="text-center text-2xl font-bold mb-8 text-slate-100">Quick Utility Tools</h2>
           <h3 className="text-center text-xl italic font-bold mb-8 text-slate-100">last updated : 16th March 2026</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
             {[
               { label: "DateSheet Sorter", href: "/datesheet", desc: "Order your exams chronologically" },
               { label: "Assignment Finder", href: "/assignmentfinder", desc: "Trace official PDF links" },
               { label: "Career Guidance", href: "/careerGoal", desc: "Post-graduation pathways" },
-              { label: "I am NEW !", href: "/i_am_new", desc: "Know what to do next" }
+              { label: "I am NEW !", href: "/i_am_new", desc: "Know what to do next" },
+              { label: "Past year Question Papers",href: "/questionPaper", desc: "Past Year Question paper links"}
             ].map((item) => (
               <a 
                 key={item.label}
@@ -36,12 +37,13 @@ export default function Home() {
         </section>
 
         <section className="mb-16">
-          <h2 className="text-center text-2xl font-bold mb-8 text-slate-100">Official IGNOU Resources</h2>
+          <h2 className="text-center text-2xl font-bold mb-8 text-slate-100">Official IGNOU Links</h2>
           <div className="flex flex-wrap gap-4 justify-center">
             {[
               { name: "Official Website", url: "https://www.ignou.ac.in" },
               { name: "Result Portal", url: "https://www.ignou.ac.in/pages/60" },
-              { name: "Assignments Page", url: "https://www.ignou.ac.in/studentService/download/assignments" }
+              { name: "Assignments Page", url: "https://www.ignou.ac.in/studentService/download/assignments" },
+              {name: "Regional Centre List", url: "https://www.ignou.ac.in/pages/22"}
             ].map((link) => (
               <a 
                 key={link.name}
