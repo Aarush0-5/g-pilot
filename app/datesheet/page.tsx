@@ -100,6 +100,7 @@ useEffect(() => {
             IGNOU Datesheet Tracer
           </h1>
           <p className="text-slate-400 mt-2">Build your subject list to generate a chronological schedule.</p>
+          <p className="text-slate-400 mt-2">Make sure to revisit this page , or the official website which is even better, before a week of the beginning of your exams and recheck whethere the dates have changed due to any circumstances for the most updated information.</p>
         </header>
 
        
