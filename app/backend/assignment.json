@@ -1,5 +1,290 @@
 [
     {
+        "course": "BHIC-134",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOSS/assignments/BAG-BHIC-134-E-25-26.pdf"
+    },
+    {
+        "course": "BHIC-134",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOSS/assignments/BAG-BHIC-134-H-25-26.pdf"
+    },
+    {
+        "course": "MVE 001",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOVET/assignments/PGDPSM-MEV-001-2026.pdf"
+    },
+    {
+        "course": "MVE 002",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOVET/assignments/PGDPSM-MEV-002-2026.pdf"
+    },
+    {
+        "course": "MVE 003",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOVET/assignments/PGDPSM-MEV-003-2026.pdf"
+    },
+    {
+        "course": "MVE 004",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOVET/assignments/PGDPSM-MEV-004-2026.pdf"
+    },
+    {
+        "course": "MVE 005",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOVET/assignments/PGDPSM-MEV-005-2026.pdf"
+    },
+    {
+        "course": "MVE 006",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOVET/assignments/PGDPSM-MEV-006-2026.pdf"
+    },
+    {
+        "course": "BTH-001",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOPVA/assignments/DTH-BTH-001.pdf"
+    },
+    {
+        "course": "BTHL-002",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOPVA/assignments/DTH-BTHL-002.pdf"
+    },
+    {
+        "course": "BTHI-004",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOPVA/assignments/DTH-BTHI-004.pdf"
+    },
+    {
+        "course": "BTHI-005",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOPVA/assignments/DTH-BTHI-005.pdf"
+    },
+    {
+        "course": "BPSC-131",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOSS/assignments/BAG-BPSC-131(H)25-26.pdf"
+    },
+    {
+        "course": "MES-212",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOE/assignments/MAEDU-MES-212.pdf"
+    },
+    {
+        "course": "MES-213",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOE/assignments/MAEDU-MES-213.pdf"
+    },
+    {
+        "course": "MDI-001",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MDI-1-25-26.pdf"
+    },
+    {
+        "course": "MDI-002",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MDI-2-25-26.pdf"
+    },
+    {
+        "course": "MDI-003",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MDI-3-25-26.pdf"
+    },
+    {
+        "course": "MDI-004",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MDI-4-25-26.pdf"
+    },
+    {
+        "course": "MDI-005",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MDI-5-25-26.pdf"
+    },
+    {
+        "course": "MDI-006",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MDI-6-25-26.pdf"
+    },
+    {
+        "course": "MDIE-001",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MIDE-01-25-26.pdf"
+    },
+    {
+        "course": "MDIE-002",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MIDE-02-25-26.pdf"
+    },
+    {
+        "course": "MPSE-001",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MAMIDI-MPSE-001-E-25-26.pdf"
+    },
+    {
+        "course": "MPSE-001",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MAMIDI-MPSE-001-H-25-26.pdf"
+    },
+    {
+        "course": "MSO-002",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MAMIDI-MSO-002-25-26.pdf"
+    },
+    {
+        "course": "MDI -007",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MID-7-25-26.pdf"
+    },
+    {
+        "course": "MDI-008",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MID-8-25-26.pdf"
+    },
+    {
+        "course": "MPSE-009",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MAMIDI-MPSE-009-E-25-26.pdf"
+    },
+    {
+        "course": "MPSE-011",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MAMIDI-MPSE-11-E-25-26.pdf"
+    },
+    {
+        "course": "MDI-009",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MID-9-25-26.pdf"
+    },
+    {
+        "course": "MDI-010",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MID-010-25-26.pdf"
+    },
+    {
+        "course": "MPSE-005",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOITS/assignments/MA-PG-MPSE-005-E-25-26.pdf"
+    },
+    {
+        "course": "BSKC-106",
+        "session": "January 2026, July 2027",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/BSKC-106-Jan-26-Jul-27.pdf"
+    },
+    {
+        "course": "BSKC-108",
+        "session": "January 2026, July 2027",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/BSKC-108-Jan-26-Jul-27.pdf"
+    },
+    {
+        "course": "BSKC-132",
+        "session": "January 2026, July 2027",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/BSKC-132-Jan-26-Jul-27.pdf"
+    },
+    {
+        "course": "BSKC-131",
+        "session": "January 2026, July 2027",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/BSKC-131-Jan-26-Jul-27.pdf"
+    },
+    {
+        "course": "BSKC-186",
+        "session": "January 2026, July 2027",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/BSKS-186-Jan-26-Jul-27.pdf"
+    },
+    {
+        "course": "BSKS-187",
+        "session": "January 2026, July 2027",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/BSKS-187-Jan-26-Jul-27.pdf"
+    },
+    {
+        "course": "BGDG-172",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOGDS/assignments/BGDG-172(H)(2025-2026).pdf"
+    },
+    {
+        "course": "BNS-209",
+        "session": "January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOHS/assignments/BNS-209-TMA-2-2026.pdf"
+    },
+    {
+        "course": "BNS-210",
+        "session": "January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOHS/assignments/BNS-210-TMA-2-2026.pdf"
+    },
+    {
+        "course": "BNS-211",
+        "session": "January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOHS/assignments/BNS-211-TMA-2-2026.pdf"
+    },
+    {
+        "course": "BSOC-109",
+        "session": "July 2025, January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOSS/assignments/BSOC-109(H)(2025-2026).pdf"
+    },
+    {
+        "course": "BSKM-161",
+        "session": "January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/BSKM-161-Jan-2026.pdf"
+    },
+    {
+        "course": "DTG-001",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOFL/assignments/DTG-001-2026.pdf"
+    },
+    {
+        "course": "DTG-002",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOFL/assignments/DTG-002-2026.pdf"
+    },
+    {
+        "course": "DTG-003",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOFL/assignments/DTG-003-2026.pdf"
+    },
+    {
+        "course": "DTG-004",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOFL/assignments/DTG-004-2026.pdf"
+    },
+    {
+        "course": "BSLS-183",
+        "session": "January 2026, July 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOSS/assignments/BSLS-183-BAG.pdf"
+    },
+    {
+        "course": "BEG-005",
+        "session": "July 2025,January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/CFE-BEG-005-2026.pdf"
+    },
+    {
+        "course": "BEG-006",
+        "session": "July 2025,January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOH/assignments/CFE-BEG-006-2026.pdf"
+    },
+    {
+        "course": "BSL-001",
+        "session": "July 2025,January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOFL/assignments/BSL-01-CSLCOL.pdf"
+    },
+    {
+        "course": "TS-5",
+        "session": "July 2025,January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOSS/assignments/TS-5-HINDI-CES.pdf"
+    },
+    {
+        "course": "AHE-001",
+        "session": "July 2025,January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOSS/assignments/AHI-1-HINDI-CES.pdf"
+    },
+    {
+        "course": "BSHF-101",
+        "session": "July 2025,January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOS/assignments/BSHF-101-ENG-2025-26.pdf"
+    },
+    {
+        "course": "EHI-01",
+        "session": "July 2025,January 2026",
+        "pdf_url": "https://www.ignou.ac.in/viewFile/SOS/assignments/BSHF-101-HINDI-2025-26.pdf"
+    },
+    {
         "course": "BHDC-132",
         "session": "January 2026",
         "pdf_url": "https://www.ignou.ac.in/viewFile/SOSS/assignments/BAG-BAM-BHDC-132-Jan-26.pdf"
