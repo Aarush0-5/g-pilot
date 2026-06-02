@@ -3,7 +3,6 @@ import fs from "node:fs/promises";
 import path from "path";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-
 export const assignmentFinder = async (courses: string[]) => {
   const filePath = path.join(process.cwd(),"app", "backend", "assignment.json");
   const fileData = await fs.readFile(filePath, "utf-8");
