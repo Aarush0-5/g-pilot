@@ -33,7 +33,7 @@ export default function question_paper_finder () {
     if (response.success) {
       setResults(response.data);
        const analysisResponse = await questionPaperFinder(inputCodes)
-    const response2 = await axios.post("http://127.0.0.1:8000/analyse",
+    const response2 = await axios.post("https://g-pilot-backend.onrender.com/analyse",
       analysisResponse.data[0]["links"]
       )
       if(response2){
@@ -182,7 +182,7 @@ const clusters = Object.keys(analysedData?.topics || {}).map((id) => {
                 </div>
                 <div className="p-6 flex-1 flex flex-col justify-between bg-white">
                   <div className="space-y-3 max-h-[240px] overflow-y-auto pr-1 custom-scrollbar">
-                    {c.keywords.map((q, index) => (
+                    {c.keywords.map((q: string, index) => (
                       <div 
                         key={index}
                         className="flex items-start gap-3 p-3 rounded-xl bg-gray-50/60 hover:bg-gray-50 transition-colors duration-150 group"
